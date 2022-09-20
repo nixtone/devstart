@@ -11,7 +11,12 @@ class Cms {
 	}
 
 	public function run() {
-		
+
+		$db = $this->di->get('test2');
+
+		echo "<pre>";
+		print_r($db);
+		echo "</pre>";
 	}
 
 }

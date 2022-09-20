@@ -1,0 +1,16 @@
+{
+    "name": "nixtone/devstart.loc",
+    "authors": [
+        {
+            "name": "nixtone",
+            "email": "nixtone@nxt.ru"
+        }
+    ],
+    "require": {},
+    "autoload": {
+    	"psr-4": {
+    		"Engine\\": "engine",
+    		"Engine\\DI\\": "engine/DI"
+    	}
+    }
+}
